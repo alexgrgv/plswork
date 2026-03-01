@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://urxvtwhgkylj"]
 
+[ext_resource type="PackedScene" uid="uid://deamuj2l3sc63" path="res://scenes/days/gui.tscn" id="1_8k0is"]
+
 [node name="Day2" type="Node2D" unique_id=429128160]
+
+[node name="GUI" parent="." unique_id=1624273168 instance=ExtResource("1_8k0is")]

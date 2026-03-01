@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://deamuj2l3sc63"]
 
 [ext_resource type="Script" uid="uid://op6fmd6hpt3p" path="res://scenes/days/canvas_layer.gd" id="1_e23it"]
-[ext_resource type="Texture2D" uid="uid://c3iig1gk7g3el" path="res://assets/Placeholder_Table.PNG" id="2_hl6be"]
 [ext_resource type="Texture2D" uid="uid://b7cjbkc285i1i" path="res://assets/Background.PNG" id="2_kqd5k"]
+[ext_resource type="Texture2D" uid="uid://bwbcay1of216n" path="res://assets/Decor items/DECORATED_table.PNG" id="3_qftcb"]
 [ext_resource type="Texture2D" uid="uid://dfs775xvbjrmk" path="res://assets/Food items/Buttons/Button_bell.PNG" id="3_sbet0"]
 [ext_resource type="Texture2D" uid="uid://cli5opsn1pntw" path="res://assets/Food items/Buttons/button2_bell.PNG" id="4_k81xp"]
 [ext_resource type="Texture2D" uid="uid://ndu0rt8hc6lo" path="res://assets/Food items/Buttons/button_curley.PNG" id="5_78ls4"]
@@ -23,7 +23,6 @@
 [ext_resource type="Texture2D" uid="uid://b2jghy37ne4u5" path="res://assets/Food items/Buttons/button2_gravey.PNG" id="19_ecd1l"]
 [ext_resource type="Texture2D" uid="uid://d4dsxhpnf4ny8" path="res://assets/Food items/Buttons/button_noise.PNG" id="20_m60wi"]
 [ext_resource type="Texture2D" uid="uid://cuh6nauycs5wk" path="res://assets/Food items/Buttons/button2_noise.PNG" id="21_3xomt"]
-[ext_resource type="Texture2D" uid="uid://b2mgqvevmx724" path="res://assets/Food items/Bucket.PNG" id="22_qj3nh"]
 [ext_resource type="Texture2D" uid="uid://d1e8d8wfhi1p3" path="res://assets/Food items/Basket_Curley.PNG" id="23_eotgu"]
 [ext_resource type="Texture2D" uid="uid://cx14jqytam24b" path="res://assets/Food items/Basket_Fries.PNG" id="24_kqd5k"]
 [ext_resource type="Texture2D" uid="uid://b57xykj4cpnmf" path="res://assets/Food items/Basket_Octo.PNG" id="25_4x80t"]
@@ -51,13 +50,13 @@ texture = ExtResource("2_kqd5k")
 
 [node name="Table" type="Sprite2D" parent="." unique_id=391476316]
 position = Vector2(959, 540)
-texture = ExtResource("2_hl6be")
+texture = ExtResource("3_qftcb")
 
 [node name="BellButton" type="TextureButton" parent="." unique_id=1207756427]
-offset_left = 349.0
-offset_top = 532.0
-offset_right = 519.0
-offset_bottom = 676.0
+offset_left = 516.0
+offset_top = 533.0
+offset_right = 686.0
+offset_bottom = 677.0
 texture_normal = ExtResource("3_sbet0")
 texture_pressed = ExtResource("3_sbet0")
 texture_hover = ExtResource("4_k81xp")
@@ -106,7 +105,7 @@ texture_normal = ExtResource("13_s1fa6")
 texture_pressed = ExtResource("13_s1fa6")
 texture_hover = ExtResource("14_xt5h2")
 
-[node name="TextureButton7" type="TextureButton" parent="." unique_id=784731941]
+[node name="MissingButton" type="TextureButton" parent="." unique_id=784731941]
 offset_left = 1366.0
 offset_top = 925.0
 offset_right = 1875.0
@@ -115,97 +114,91 @@ texture_normal = ExtResource("15_737bf")
 texture_pressed = ExtResource("15_737bf")
 texture_hover = ExtResource("17_4x80t")
 
-[node name="TextureButton8" type="TextureButton" parent="." unique_id=2132938888]
-offset_left = 758.0
-offset_top = 575.0
-offset_right = 834.0
-offset_bottom = 791.0
+[node name="InkButton" type="TextureButton" parent="." unique_id=2132938888]
+offset_left = 1136.0
+offset_top = 579.0
+offset_right = 1212.0
+offset_bottom = 795.0
 texture_normal = ExtResource("16_ni0mf")
 texture_pressed = ExtResource("16_ni0mf")
 texture_hover = ExtResource("17_gbpkt")
 
-[node name="TextureButton9" type="TextureButton" parent="." unique_id=2045913049]
-offset_left = 930.0
-offset_top = 569.0
-offset_right = 1001.0
-offset_bottom = 791.0
+[node name="GraveyButton" type="TextureButton" parent="." unique_id=2045913049]
+offset_left = 1240.0
+offset_top = 574.0
+offset_right = 1311.0
+offset_bottom = 796.0
 texture_normal = ExtResource("18_gk0bp")
 texture_pressed = ExtResource("18_gk0bp")
 texture_hover = ExtResource("19_ecd1l")
 
-[node name="TextureButton10" type="TextureButton" parent="." unique_id=1576854425]
-offset_left = 1094.0
-offset_top = 574.0
-offset_right = 1162.0
-offset_bottom = 791.0
+[node name="NoiseButton" type="TextureButton" parent="." unique_id=1576854425]
+offset_left = 1333.0
+offset_top = 580.0
+offset_right = 1401.0
+offset_bottom = 797.0
 texture_normal = ExtResource("20_m60wi")
 texture_pressed = ExtResource("20_m60wi")
 texture_hover = ExtResource("21_3xomt")
 
-[node name="Basket" type="Sprite2D" parent="." unique_id=398507605]
-position = Vector2(971, 884)
-texture = ExtResource("22_qj3nh")
-region_enabled = true
-region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
-
 [node name="Curley" type="Sprite2D" parent="." unique_id=128061768]
-position = Vector2(971, 884)
+visible = false
+position = Vector2(956, 900)
 texture = ExtResource("23_eotgu")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Fries" type="Sprite2D" parent="." unique_id=1619760571]
-visible = false
-position = Vector2(971, 884)
+position = Vector2(956, 897)
 texture = ExtResource("24_kqd5k")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Octo" type="Sprite2D" parent="." unique_id=412306528]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(968, 899)
 texture = ExtResource("25_4x80t")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Ink" type="Sprite2D" parent="." unique_id=580416100]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(965, 902)
 texture = ExtResource("26_vyyxi")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Gravey" type="Sprite2D" parent="." unique_id=919412359]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(965, 910)
 texture = ExtResource("27_nt2i5")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Noise" type="Sprite2D" parent="." unique_id=724193880]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(961, 887)
 texture = ExtResource("28_7818y")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Curd" type="Sprite2D" parent="." unique_id=1690253254]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(957, 888)
 texture = ExtResource("29_cro0g")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Onions" type="Sprite2D" parent="." unique_id=1694639825]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(960, 894)
 texture = ExtResource("30_t10nv")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
 
 [node name="Missing" type="Sprite2D" parent="." unique_id=1371288234]
 visible = false
-position = Vector2(971, 884)
+position = Vector2(955, 899)
 texture = ExtResource("31_8wr7x")
 region_enabled = true
 region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
@@ -224,7 +217,7 @@ texture = ExtResource("35_nt2i5")
 [connection signal="pressed" from="OctoButton" to="." method="_on_texture_button_4_pressed"]
 [connection signal="pressed" from="CurdButton" to="." method="_on_texture_button_5_pressed"]
 [connection signal="pressed" from="OnionsButton" to="." method="_on_texture_button_6_pressed"]
-[connection signal="pressed" from="TextureButton7" to="." method="_on_texture_button_7_pressed"]
-[connection signal="pressed" from="TextureButton8" to="." method="_on_texture_button_8_pressed"]
-[connection signal="pressed" from="TextureButton9" to="." method="_on_texture_button_9_pressed"]
-[connection signal="pressed" from="TextureButton10" to="." method="_on_texture_button_10_pressed"]
+[connection signal="pressed" from="MissingButton" to="." method="_on_texture_button_7_pressed"]
+[connection signal="pressed" from="InkButton" to="." method="_on_texture_button_8_pressed"]
+[connection signal="pressed" from="GraveyButton" to="." method="_on_texture_button_9_pressed"]
+[connection signal="pressed" from="NoiseButton" to="." method="_on_texture_button_10_pressed"]

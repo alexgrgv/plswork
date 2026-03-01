@@ -3,7 +3,14 @@
 [ext_resource type="Script" uid="uid://cmsp6u58oim1j" path="res://scenes/days/day_1.gd" id="1_ag8wi"]
 [ext_resource type="PackedScene" uid="uid://deamuj2l3sc63" path="res://scenes/days/gui.tscn" id="2_kyr3m"]
 
-[node name="Day1" type="Node2D" unique_id=1345628350]
+[node name="day_scene" type="Node2D" unique_id=1345628350]
 script = ExtResource("1_ag8wi")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=47945430]
+visible = false
+offset_left = 258.0
+offset_top = 422.0
+offset_right = 2162.1162
+offset_bottom = 1632.0
 
 [node name="GUI" parent="." unique_id=1624273168 instance=ExtResource("2_kyr3m")]
