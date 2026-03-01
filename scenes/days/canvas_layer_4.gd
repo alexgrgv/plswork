@@ -1,4 +1,4 @@
-# day 2 gui
+# day 4 gui
 
 extends CanvasLayer
 
@@ -18,78 +18,88 @@ var orderCode: int = 0 # 3-digit number to determine order
 var currentDate: int = 1 # date cgeck(?)
 var currentCharacter: int = 0 # index for array to check character orders, 0 to 3 
 
-var orderList2 = [131, 122, 323, 233]
+var orderList4 = [223, 323, 999, 999, 999]
 
 var dateEnd: bool = false
 
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print("it is wednesday")
+	print("it is friday")
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass 
-	# $MissingButton.visible = not visible
-	# $NoiseButton.visible = not visible
+
 
 # add Noise
-func _on_texture_button_10_pressed() -> void:
+func _on_noise_button_pressed() -> void:
 	show_sauce($Noise, 30)
 
 # add Gravey
-func _on_texture_button_9_pressed() -> void:
+func _on_gravey_button_pressed() -> void:
 	show_sauce($Gravey, 20)
 
 # add Ink
-func _on_texture_button_8_pressed() -> void:
+func _on_ink_button_pressed() -> void:
 	show_sauce($Ink, 10)
 
 # add Missing
-func _on_texture_button_7_pressed() -> void:
+func _on_missing_button_pressed() -> void:
 	show_ingredient($Missing, 3)
 
 # add Onions
-func _on_texture_button_6_pressed() -> void:
+func _on_onions_button_pressed() -> void:
 	show_ingredient($Onions, 2)
 
 # add Cheese curds
-func _on_texture_button_5_pressed() -> void:
+func _on_curd_button_pressed() -> void:
 	show_ingredient($Curd, 1)
 
 # add Octo fries
-func _on_texture_button_4_pressed() -> void:
+func _on_octo_button_pressed() -> void:
 	show_fry($Octo, 300)
 
 # add Fries
-func _on_texture_button_3_pressed() -> void:
+func _on_fries_button_pressed() -> void:
 	show_fry($Fries, 200)
 
 # add Curley fries
-func _on_texture_button_2_pressed() -> void:
+func _on_curley_button_pressed() -> void:
 	show_fry($Curley, 100)
 
-# The Reset Bell 
-func _on_texture_button_pressed() -> void:
-	if (checkFries and checkSauce and checkIngredient):
-		currentFry.visible = false
-		checkFries = false
-		currentFry = null
+# Send Order Bell 
+func _on_bell_button_pressed() -> void:
+	remove_food()
 	
-		currentIngredient.visible = false
-		checkIngredient = false
-		currentIngredient = null
+	if orderCode == orderList4[currentCharacter]:
+		print("correct!")
+	else:
+		print("wrong.")	
 	
-		currentSauce.visible = false
-		checkSauce = false
-		currentSauce = null
-	
-		# code to check order goes here
+	if currentCharacter == 0:
+		$Character13.visible = false
+		$FoodSpeech13.visible = false
+		$Character14.visible = true
+		$FoodSpeech14.visible = true
 		
+	elif currentCharacter == 1:
+		$Character14.visible = false
+		$FoodSpeech14.visible = false
+		$Character15.visible = true
+		$FoodSpeech15.visible = true
 		
-		orderCode = 0 # reset
-		currentCharacter += 1
+	elif currentCharacter == 2:
+		$Character15.visible = false
+		$FoodSpeech15.visible = false
+		# insert transition to next scene ! ! ! ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	
+	# code to check order goes here
+	orderCode = 0 # reset
+	currentCharacter += 1	
+
 
 # Make fries appear
 func show_fry(fry_node: Node, value: int):
@@ -129,6 +139,23 @@ func show_ingredient(ingredient_node: Node, value: int):
 	ingredientValue = value
 	orderCode += ingredientValue
 	print(orderCode)
+
+# Make everything disappear
+func remove_food() -> void:
+	if (checkFries and checkSauce and checkIngredient):
+		currentFry.visible = false
+		checkFries = false
+		currentFry = null
+	
+		currentIngredient.visible = false
+		checkIngredient = false
+		currentIngredient = null
+	
+		currentSauce.visible = false
+		checkSauce = false
+		currentSauce = null
+
+
 
 # adding more later...
 func checkOrder(order: int, intended: int):

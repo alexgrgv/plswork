@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://urxvtwhgkylj"]
 
 [ext_resource type="Script" path="res://scenes/days/day_2.gd" id="1_o7lt3"]
-[ext_resource type="PackedScene" uid="uid://deamuj2l3sc63" path="res://scenes/days/gui2.tscn" id="2_o7lt3"]
+[ext_resource type="PackedScene" uid="uid://bvdus66c6jd1k" path="res://scenes/days/canvas_layer2.tscn" id="2_o7lt3"]
 
 [node name="Day2" type="Node2D" unique_id=429128160]
 script = ExtResource("1_o7lt3")
 
-[node name="GUI" parent="." unique_id=1624273168 instance=ExtResource("2_o7lt3")]
+[node name="CanvasLayer2" parent="." unique_id=937965525 instance=ExtResource("2_o7lt3")]

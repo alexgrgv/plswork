@@ -1,0 +1,254 @@
+[gd_scene format=3 uid="uid://ba0gfa60lkwjw"]
+
+[ext_resource type="Script" uid="uid://3juifq82ey8h" path="res://scenes/days/canvas_layer_4.gd" id="1_ba210"]
+[ext_resource type="Texture2D" uid="uid://c2k2mpxgwknga" path="res://assets/Decor items/Red_Background.PNG" id="2_6rwar"]
+[ext_resource type="Texture2D" uid="uid://b72orlh6f5heq" path="res://assets/Characters/Glitch_Elmer.PNG" id="3_0lvhi"]
+[ext_resource type="Texture2D" uid="uid://bmgyjl50k1i2q" path="res://assets/Characters/Glitch_Melanie.PNG" id="4_a37to"]
+[ext_resource type="Texture2D" uid="uid://dkuibagp1vjsj" path="res://assets/Characters/GlitchMan.PNG" id="5_1tota"]
+[ext_resource type="Texture2D" uid="uid://bwbcay1of216n" path="res://assets/Decor items/DECORATED_table.PNG" id="6_qm4rd"]
+[ext_resource type="Texture2D" uid="uid://dfs775xvbjrmk" path="res://assets/Food items/Buttons/Button_bell.PNG" id="7_o0rg3"]
+[ext_resource type="Texture2D" uid="uid://cli5opsn1pntw" path="res://assets/Food items/Buttons/button2_bell.PNG" id="8_s8t3r"]
+[ext_resource type="Texture2D" uid="uid://ndu0rt8hc6lo" path="res://assets/Food items/Buttons/button_curley.PNG" id="9_sfiwo"]
+[ext_resource type="Texture2D" uid="uid://b1o0rsvcfp1x1" path="res://assets/Food items/Buttons/button2_curley.PNG" id="10_h4mgs"]
+[ext_resource type="Texture2D" uid="uid://cgr0lcjvfjq42" path="res://assets/Food items/Buttons/button_fries.PNG" id="11_g5bs8"]
+[ext_resource type="Texture2D" uid="uid://do444bpf4cgo1" path="res://assets/Food items/Buttons/button2_fries.PNG" id="12_uubw1"]
+[ext_resource type="Texture2D" uid="uid://bqqqfkxgv3hlw" path="res://assets/Food items/Buttons/Button_octo.PNG" id="13_ckmq2"]
+[ext_resource type="Texture2D" uid="uid://bii1kgmvhxnyl" path="res://assets/Food items/Buttons/button2_octo.PNG" id="14_faiu8"]
+[ext_resource type="Texture2D" uid="uid://dubvpiylmf40q" path="res://assets/Food items/Buttons/button_curds.PNG" id="15_uk384"]
+[ext_resource type="Texture2D" uid="uid://dfrr5ewolw5ux" path="res://assets/Food items/Buttons/button2_curds.PNG" id="16_3fp16"]
+[ext_resource type="Texture2D" uid="uid://cqglrpmmkfl0u" path="res://assets/Food items/Buttons/Button_onion.PNG" id="17_divja"]
+[ext_resource type="Texture2D" uid="uid://cja2he4i27v43" path="res://assets/Food items/Buttons/button2_onion.PNG" id="18_hopk3"]
+[ext_resource type="Texture2D" uid="uid://cc7n8l3yllbxc" path="res://assets/Food items/Buttons/button_missing.PNG" id="19_08ucp"]
+[ext_resource type="Texture2D" uid="uid://cmcftfwudtn08" path="res://assets/Food items/Buttons/button2_missing.PNG" id="20_w0wh8"]
+[ext_resource type="Texture2D" uid="uid://spku4r3y671m" path="res://assets/Food items/Buttons/button_ink.PNG" id="21_tbp1q"]
+[ext_resource type="Texture2D" uid="uid://xdxgxbrmkc5a" path="res://assets/Food items/Buttons/button2_ink.PNG" id="22_q6mej"]
+[ext_resource type="Texture2D" uid="uid://jwqbca0mkwuu" path="res://assets/Food items/Buttons/button_gravey.PNG" id="23_vn41h"]
+[ext_resource type="Texture2D" uid="uid://b2jghy37ne4u5" path="res://assets/Food items/Buttons/button2_gravey.PNG" id="24_luoeg"]
+[ext_resource type="Texture2D" uid="uid://d4dsxhpnf4ny8" path="res://assets/Food items/Buttons/button_noise.PNG" id="25_d0v1q"]
+[ext_resource type="Texture2D" uid="uid://cuh6nauycs5wk" path="res://assets/Food items/Buttons/button2_noise.PNG" id="26_wafxx"]
+[ext_resource type="Texture2D" uid="uid://d1e8d8wfhi1p3" path="res://assets/Food items/Basket_Curley.PNG" id="27_eqm70"]
+[ext_resource type="Texture2D" uid="uid://cx14jqytam24b" path="res://assets/Food items/Basket_Fries.PNG" id="28_47i7n"]
+[ext_resource type="Texture2D" uid="uid://b57xykj4cpnmf" path="res://assets/Food items/Basket_Octo.PNG" id="29_ui568"]
+[ext_resource type="Texture2D" uid="uid://dy18phadp5xqp" path="res://assets/Food items/Basket_Ink.PNG" id="30_3puqk"]
+[ext_resource type="Texture2D" uid="uid://cl6yuumkku7pm" path="res://assets/Food items/Basket_Gravey.PNG" id="31_ervmi"]
+[ext_resource type="Texture2D" uid="uid://dyckdkuvpg4sn" path="res://assets/Food items/Basket_Noise1.PNG" id="32_iq2vv"]
+[ext_resource type="Texture2D" uid="uid://bb06hw2bc34by" path="res://assets/Food items/Basket_Curd.PNG" id="33_f6v1g"]
+[ext_resource type="Texture2D" uid="uid://3t82o5312f2q" path="res://assets/Food items/Basket_Onion.PNG" id="34_ypb43"]
+[ext_resource type="Texture2D" uid="uid://ds2meewopahl6" path="res://assets/Food items/Basket_missingTopping.PNG" id="35_ilasq"]
+[ext_resource type="Texture2D" uid="uid://50q3md4hqnd2" path="res://assets/Characters/Speechbubble.PNG" id="36_mv056"]
+[ext_resource type="Texture2D" uid="uid://bxe2ixcsw1aay" path="res://assets/Food items/Food bubble/octo_gravey_missing.PNG" id="37_a684f"]
+[ext_resource type="Texture2D" uid="uid://twae1coidc03" path="res://assets/Food items/Food bubble/death.PNG" id="38_6t0hb"]
+
+[node name="CanvasLayer4" type="CanvasLayer" unique_id=1122685831]
+script = ExtResource("1_ba210")
+
+[node name="Filler" type="ColorRect" parent="." unique_id=1180515408]
+offset_left = -41.0
+offset_top = -25.0
+offset_right = 1942.0
+offset_bottom = 1099.0
+
+[node name="BG" type="Sprite2D" parent="." unique_id=1161068650]
+position = Vector2(960, 537)
+texture = ExtResource("2_6rwar")
+
+[node name="Character13" type="Sprite2D" parent="." unique_id=1952891887]
+position = Vector2(959, 540)
+texture = ExtResource("3_0lvhi")
+
+[node name="Character14" type="Sprite2D" parent="." unique_id=789356168]
+visible = false
+position = Vector2(959, 540)
+texture = ExtResource("4_a37to")
+
+[node name="Character15" type="Sprite2D" parent="." unique_id=2049226827]
+visible = false
+position = Vector2(959, 540)
+texture = ExtResource("5_1tota")
+
+[node name="Table" type="Sprite2D" parent="." unique_id=355457508]
+position = Vector2(959, 540)
+texture = ExtResource("6_qm4rd")
+
+[node name="BellButton" type="TextureButton" parent="." unique_id=642681208]
+offset_left = 516.0
+offset_top = 533.0
+offset_right = 686.0
+offset_bottom = 677.0
+texture_normal = ExtResource("7_o0rg3")
+texture_pressed = ExtResource("7_o0rg3")
+texture_hover = ExtResource("8_s8t3r")
+
+[node name="CurleyButton" type="TextureButton" parent="." unique_id=247796422]
+offset_left = 201.0
+offset_top = 804.0
+offset_right = 622.0
+offset_bottom = 858.0
+texture_normal = ExtResource("9_sfiwo")
+texture_pressed = ExtResource("9_sfiwo")
+texture_hover = ExtResource("10_h4mgs")
+
+[node name="FriesButton" type="TextureButton" parent="." unique_id=1835101753]
+offset_left = 102.0
+offset_top = 862.0
+offset_right = 582.0
+offset_bottom = 925.0
+texture_normal = ExtResource("11_g5bs8")
+texture_pressed = ExtResource("11_g5bs8")
+texture_hover = ExtResource("12_uubw1")
+
+[node name="OctoButton" type="TextureButton" parent="." unique_id=1641768931]
+offset_top = 911.0
+offset_right = 566.0
+offset_bottom = 1000.0
+texture_normal = ExtResource("13_ckmq2")
+texture_pressed = ExtResource("13_ckmq2")
+texture_hover = ExtResource("14_faiu8")
+
+[node name="CurdButton" type="TextureButton" parent="." unique_id=1892118271]
+offset_left = 1295.0
+offset_top = 787.0
+offset_right = 1698.0
+offset_bottom = 858.0
+texture_normal = ExtResource("15_uk384")
+texture_pressed = ExtResource("15_uk384")
+texture_hover = ExtResource("16_3fp16")
+
+[node name="OnionsButton" type="TextureButton" parent="." unique_id=1357109973]
+offset_left = 1310.0
+offset_top = 852.0
+offset_right = 1797.0
+offset_bottom = 936.0
+texture_normal = ExtResource("17_divja")
+texture_pressed = ExtResource("17_divja")
+texture_hover = ExtResource("18_hopk3")
+
+[node name="MissingButton" type="TextureButton" parent="." unique_id=1711108802]
+offset_left = 1366.0
+offset_top = 925.0
+offset_right = 1875.0
+offset_bottom = 1003.0
+texture_normal = ExtResource("19_08ucp")
+texture_pressed = ExtResource("19_08ucp")
+texture_hover = ExtResource("20_w0wh8")
+
+[node name="InkButton" type="TextureButton" parent="." unique_id=2081351777]
+offset_left = 1136.0
+offset_top = 579.0
+offset_right = 1212.0
+offset_bottom = 795.0
+texture_normal = ExtResource("21_tbp1q")
+texture_pressed = ExtResource("21_tbp1q")
+texture_hover = ExtResource("22_q6mej")
+
+[node name="GraveyButton" type="TextureButton" parent="." unique_id=541768546]
+offset_left = 1240.0
+offset_top = 574.0
+offset_right = 1311.0
+offset_bottom = 796.0
+texture_normal = ExtResource("23_vn41h")
+texture_pressed = ExtResource("23_vn41h")
+texture_hover = ExtResource("24_luoeg")
+
+[node name="NoiseButton" type="TextureButton" parent="." unique_id=2033334955]
+offset_left = 1333.0
+offset_top = 580.0
+offset_right = 1401.0
+offset_bottom = 797.0
+texture_normal = ExtResource("25_d0v1q")
+texture_pressed = ExtResource("25_d0v1q")
+texture_hover = ExtResource("26_wafxx")
+
+[node name="Curley" type="Sprite2D" parent="." unique_id=1485592903]
+visible = false
+position = Vector2(956, 900)
+texture = ExtResource("27_eqm70")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Fries" type="Sprite2D" parent="." unique_id=190758876]
+visible = false
+position = Vector2(956, 897)
+texture = ExtResource("28_47i7n")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Octo" type="Sprite2D" parent="." unique_id=117049145]
+visible = false
+position = Vector2(968, 899)
+texture = ExtResource("29_ui568")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Ink" type="Sprite2D" parent="." unique_id=709399047]
+visible = false
+position = Vector2(965, 902)
+texture = ExtResource("30_3puqk")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Gravey" type="Sprite2D" parent="." unique_id=1575354717]
+visible = false
+position = Vector2(965, 910)
+texture = ExtResource("31_ervmi")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Noise" type="Sprite2D" parent="." unique_id=1489420999]
+visible = false
+position = Vector2(961, 887)
+texture = ExtResource("32_iq2vv")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Curd" type="Sprite2D" parent="." unique_id=496838992]
+visible = false
+position = Vector2(957, 888)
+texture = ExtResource("33_f6v1g")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Onions" type="Sprite2D" parent="." unique_id=1500696595]
+visible = false
+position = Vector2(960, 894)
+texture = ExtResource("34_ypb43")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Missing" type="Sprite2D" parent="." unique_id=1145919143]
+visible = false
+position = Vector2(955, 899)
+texture = ExtResource("35_ilasq")
+region_enabled = true
+region_rect = Rect2(796.5496, 828.0787, 331.12128, 139.17017)
+
+[node name="Speech" type="Sprite2D" parent="." unique_id=684664735]
+position = Vector2(958, 543)
+texture = ExtResource("36_mv056")
+
+[node name="FoodSpeech13" type="Sprite2D" parent="." unique_id=274520082]
+position = Vector2(958, 543)
+texture = ExtResource("37_a684f")
+
+[node name="FoodSpeech14" type="Sprite2D" parent="." unique_id=452527390]
+visible = false
+position = Vector2(958, 543)
+texture = ExtResource("37_a684f")
+
+[node name="FoodSpeech15" type="Sprite2D" parent="." unique_id=502321898]
+visible = false
+position = Vector2(1360, 375)
+texture = ExtResource("38_6t0hb")
+region_enabled = true
+region_rect = Rect2(1184.3999, 290.79996, 351.19995, 164.79999)
+
+[connection signal="pressed" from="BellButton" to="." method="_on_bell_button_pressed"]
+[connection signal="pressed" from="CurleyButton" to="." method="_on_curley_button_pressed"]
+[connection signal="pressed" from="FriesButton" to="." method="_on_fries_button_pressed"]
+[connection signal="pressed" from="OctoButton" to="." method="_on_octo_button_pressed"]
+[connection signal="pressed" from="CurdButton" to="." method="_on_curd_button_pressed"]
+[connection signal="pressed" from="OnionsButton" to="." method="_on_onions_button_pressed"]
+[connection signal="pressed" from="MissingButton" to="." method="_on_missing_button_pressed"]
+[connection signal="pressed" from="InkButton" to="." method="_on_ink_button_pressed"]
+[connection signal="pressed" from="GraveyButton" to="." method="_on_gravey_button_pressed"]
+[connection signal="pressed" from="NoiseButton" to="." method="_on_noise_button_pressed"]
