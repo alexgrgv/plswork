@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c0tjqn3ewccbw"]
 
 [ext_resource type="Texture2D" uid="uid://b16lts1u1hs77" path="res://assets/Cutscenes/day end.PNG" id="1_4en8d"]
-[ext_resource type="Script" uid="uid://c7fhj43tifh3p" path="res://scenes/days/day_1_end.gd" id="1_63vb7"]
+[ext_resource type="Script" path="res://scenes/days/day_1_end.gd" id="1_63vb7"]
 
 [node name="DayEnd" type="Node2D" unique_id=349399694]
 script = ExtResource("1_63vb7")

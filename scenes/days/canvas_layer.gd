@@ -19,7 +19,7 @@ var currentDate: int = 1 # date cgeck(?)
 var currentCharacter: int = 0 # index for array to check character orders, 0 to 3 
 
 # currently only 4 actual customers per day ...
-var orderList1 = [121, 312, 111, 322, 400, 400, 400, 400, 400]
+var orderList1 = [221, 312, 111, 322, 400, 400, 400, 400, 400]
 
 # boolean to end the day
 var dateEnd: bool = false
@@ -78,8 +78,11 @@ func _on_bell_button_pressed() -> void:
 	
 	if orderCode == orderList1[currentCharacter]:
 		print("correct!")
+	elif currentCharacter == 7:
+		currentCharacter == 0
 	else:
 		print("wrong.")	
+	
 	
 	if currentCharacter == 0:
 		$Character.visible = false
@@ -103,6 +106,7 @@ func _on_bell_button_pressed() -> void:
 		$Character4.visible = false
 		$FoodSpeech4.visible = false
 		dateEnd = true
+		get_tree().change_scene_to_file("res://scenes/days/day_1_end.tscn") 
 		# insert transition to next scene ! ! ! ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		pass
 	

@@ -95,6 +95,7 @@ func _on_bell_button_pressed() -> void:
 		$Character15.visible = false
 		$FoodSpeech15.visible = false
 		dateEnd = true
+		get_tree().change_scene_to_file("res://scenes/days/day_4_end.tscn") 
 		# insert transition to next scene ! ! ! ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
 	orderCode = 0  # reset
