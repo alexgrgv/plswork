@@ -94,11 +94,11 @@ func _on_bell_button_pressed() -> void:
 	elif currentCharacter == 2:
 		$Character15.visible = false
 		$FoodSpeech15.visible = false
+		dateEnd = true
 		# insert transition to next scene ! ! ! ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
-	# code to check order goes here
-	orderCode = 0 # reset
-	currentCharacter += 1	
+	orderCode = 0  # reset
+	currentCharacter += 1  # update to next character index
 
 
 # Make fries appear

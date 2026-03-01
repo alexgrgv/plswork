@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b4870lyga7i8a"]
 
-[ext_resource type="Script" path="res://scenes/mainmenu/credits.gd" id="1_i2trd"]
+[ext_resource type="Script" uid="uid://c4nbjkvm6nir7" path="res://scenes/mainmenu/credits.gd" id="1_i2trd"]
 [ext_resource type="Texture2D" uid="uid://ckeeiyp13l4sf" path="res://assets/MenuScreen.JPG" id="1_j0eg3"]
 [ext_resource type="FontFile" uid="uid://d8ubn5rk6l4t" path="res://assets/PanasChill.ttf" id="1_o3rah"]
 

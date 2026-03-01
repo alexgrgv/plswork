@@ -26,7 +26,7 @@ var dateEnd: bool = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	print("it is thursday")
-
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -100,6 +100,7 @@ func _on_bell_button_pressed() -> void:
 	elif currentCharacter == 3:
 		$Character12.visible = false
 		$FoodSpeech12.visible = false
+		dateEnd = true
 		# insert transition to next scene ! ! ! ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
 	# code to check order goes here

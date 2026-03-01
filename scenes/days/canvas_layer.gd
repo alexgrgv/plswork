@@ -18,14 +18,17 @@ var orderCode: int = 0 # 3-digit number to determine order
 var currentDate: int = 1 # date cgeck(?)
 var currentCharacter: int = 0 # index for array to check character orders, 0 to 3 
 
+# currently only 4 actual customers per day ...
 var orderList1 = [121, 312, 111, 322, 400, 400, 400, 400, 400]
 
+# boolean to end the day
 var dateEnd: bool = false
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	print("it is tuesday")
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -99,6 +102,7 @@ func _on_bell_button_pressed() -> void:
 	elif currentCharacter == 3:
 		$Character4.visible = false
 		$FoodSpeech4.visible = false
+		dateEnd = true
 		# insert transition to next scene ! ! ! ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		pass
 	
