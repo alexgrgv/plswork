@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c6t37rck1fieq"]
 
-[ext_resource type="PackedScene" uid="uid://deamuj2l3sc63" path="res://scenes/days/gui.tscn" id="1_24in7"]
+[ext_resource type="PackedScene" uid="uid://deamuj2l3sc63" path="res://scenes/days/gui3.tscn" id="1_24in7"]
 
 [node name="Day3" type="Node2D" unique_id=394443897]
 
