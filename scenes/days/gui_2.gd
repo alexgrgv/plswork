@@ -1,3 +1,5 @@
+# day 2 gui
+
 extends CanvasLayer
 
 var checkFries: bool = false
@@ -16,10 +18,8 @@ var orderCode: int = 0 # 3-digit number to determine order
 var currentDate: int = 1 # date cgeck(?)
 var currentCharacter: int = 0 # index for array to check character orders, 0 to 3 
 
-var orderList1 = [121, 312, 111, 322]
 var orderList2 = [131, 122, 323, 233]
-var orderList3 = [323, 131, 223, 323]
-var orderList4 = [223, 323, 0, 0]
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

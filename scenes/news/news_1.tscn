@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dwxgjin6qtly4"]
 
-[ext_resource type="Script" path="res://scenes/news/news_1.gd" id="1_qo78n"]
+[ext_resource type="Script" uid="uid://b38jokhsxlxoy" path="res://scenes/news/news_1.gd" id="1_qo78n"]
 [ext_resource type="AudioStream" uid="uid://ccvq3gqsyssj6" path="res://assets/Audio/news1.mp3" id="1_swdbk"]
 [ext_resource type="Texture2D" uid="uid://dxcxq2co6qe6m" path="res://assets/Cutscenes/NEWS1.PNG" id="3_qo78n"]
 
