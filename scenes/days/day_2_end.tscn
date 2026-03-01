@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cxvs2en767rei"]
+
+[ext_resource type="Script" uid="uid://be8gad6xskon5" path="res://scenes/days/day_2_end.gd" id="1_0yhb0"]
+[ext_resource type="Texture2D" uid="uid://b16lts1u1hs77" path="res://assets/Cutscenes/day end.PNG" id="1_geuo5"]
+
+[node name="Day2End" type="AudioStreamPlayer" unique_id=1671879877]
+script = ExtResource("1_0yhb0")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1078170820]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_geuo5")
+
+[node name="Timer" type="Timer" parent="." unique_id=894079100]
+wait_time = 4.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

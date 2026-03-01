@@ -1,7 +1,23 @@
 [gd_scene format=3 uid="uid://bj6pscpxw1s2h"]
 
+[ext_resource type="Script" uid="uid://dndag3fygajcu" path="res://scenes/ending/end.gd" id="1_f26p6"]
+[ext_resource type="Texture2D" uid="uid://txcjwy5qtrog" path="res://assets/Cutscenes/END.JPG" id="1_wnjm0"]
+[ext_resource type="AudioStream" uid="uid://basvhik8deyvs" path="res://assets/Audio/GlitchMonster.mp3" id="3_dum0s"]
+
 [node name="End" type="Node2D" unique_id=1311864816]
+script = ExtResource("1_f26p6")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=578592237]
 offset_right = 40.0
 offset_bottom = 40.0
+texture = ExtResource("1_wnjm0")
+
+[node name="Timer" type="Timer" parent="." unique_id=2020166184]
+wait_time = 6.0
+autostart = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Timer" unique_id=118464782]
+stream = ExtResource("3_dum0s")
+autoplay = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

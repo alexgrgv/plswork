@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="PLSWORK"
-run/main_scene="uid://be2co8nsu3nms"
+run/main_scene="uid://ibnept0nfoos"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Mmc="*uid://c3ujxojb3n3ls"
 
 [display]
 

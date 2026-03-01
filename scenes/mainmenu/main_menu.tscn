@@ -1,9 +1,8 @@
 [gd_scene format=3 uid="uid://ibnept0nfoos"]
 
-[ext_resource type="Script" path="res://scenes/mainmenu/main_menu.gd" id="1_jl081"]
+[ext_resource type="Script" uid="uid://d2sn2lovdoxfj" path="res://scenes/mainmenu/main_menu.gd" id="1_jl081"]
 [ext_resource type="FontFile" uid="uid://d8ubn5rk6l4t" path="res://assets/PanasChill.ttf" id="1_ysd44"]
 [ext_resource type="Texture2D" uid="uid://c4ht4x5v3dqlu" path="res://assets/titlescreen.PNG" id="2_sq05c"]
-[ext_resource type="AudioStream" uid="uid://70xxyuimsxdm" path="res://assets/Audio/BG_Music.mp3" id="4_ukhca"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sq05c"]
 bg_color = Color(0.57698524, 0.3554227, 0.13171142, 0.56078434)
@@ -107,9 +106,6 @@ theme_override_font_sizes/font_size = 70
 theme_override_styles/pressed = SubResource("StyleBoxFlat_yn0lx")
 text = "Quit"
 script = ExtResource("1_jl081")
-
-[node name="BgMusic" type="AudioStreamPlayer" parent="." unique_id=1910252731]
-stream = ExtResource("4_ukhca")
 
 [connection signal="pressed" from="button/VBoxContainer/start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="button/VBoxContainer/credits" to="." method="_on_credits_pressed"]

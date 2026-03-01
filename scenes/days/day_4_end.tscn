@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cvi7whbx4gmip"]
+
+[ext_resource type="Texture2D" uid="uid://hlyhqqm28b52" path="res://assets/Cutscenes/world end.PNG" id="1_g6bpo"]
+[ext_resource type="Script" uid="uid://itg2m60akctm" path="res://scenes/days/day_4_end.gd" id="1_rqn3x"]
+
+[node name="Day4End" type="AudioStreamPlayer" unique_id=318421825]
+script = ExtResource("1_rqn3x")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=70413751]
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_g6bpo")
+
+[node name="Timer" type="Timer" parent="." unique_id=1094165796]
+wait_time = 4.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

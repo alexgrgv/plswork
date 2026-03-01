@@ -1,7 +1,14 @@
 [gd_scene format=3 uid="uid://cyrathccobrs7"]
 
+[ext_resource type="Script" uid="uid://bywnnp8rjpfsn" path="res://scenes/days/day_4.gd" id="1_okllx"]
 [ext_resource type="PackedScene" uid="uid://deamuj2l3sc63" path="res://scenes/days/gui.tscn" id="1_tidyw"]
+[ext_resource type="AudioStream" uid="uid://bggvcy03cpw1i" path="res://assets/Audio/scaryMusic.mp3" id="3_ybybt"]
 
 [node name="Day4" type="Node2D" unique_id=35575453]
+script = ExtResource("1_okllx")
 
 [node name="GUI" parent="." unique_id=1624273168 instance=ExtResource("1_tidyw")]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=904418681]
+stream = ExtResource("3_ybybt")
+autoplay = true
